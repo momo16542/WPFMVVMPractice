@@ -23,6 +23,7 @@ namespace WPFMVVMPractice
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new MainWindowViewModel();
         }
     }
 }
